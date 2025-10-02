@@ -1,0 +1,42 @@
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carta_love {
+  background: #075e54; /**/
+  color: #fff;
+  padding: 1em 2em;
+  border-radius: 10px;
+  position: relative;
+  max-width: 320px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.carta_love .titulo {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.carta_love a {
+  color: #25D366; /**/
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.carta_love a:hover {
+  text-decoration: underline;
+}
+
+.carta_love .hora {
+  font-size: 0.75em;
+  color: #ddd;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
